@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   background-color: rgb(229, 242, 245);
+  width:100%;
+  overflow-x: hidden;
 }
 
 .navbar-side {
@@ -501,6 +505,10 @@ body {
   height: 411px;
 }
 
+.left-side-texts p{
+  color: #000000;
+}
+
 .Preacutions{
   height: 100px;
   padding-top: 25px;
@@ -862,6 +870,133 @@ p {
   top: 30px;
   left: 10px;
 }
+
+@media screen and (max-width: 992px) {
+  #navbar .foxic-logo {
+    display: none;
+  }
+
+  #navbar .icons-side{
+    display:none;
+  }
+
+  #navbar .sections-side{
+    margin-left: 20px;
+  }
+
+  #arrivals {
+    margin-top: 300px;
+  }
+
+ 
+  
+  #arrivals .products .product3 {
+    margin-left: -70px;
+    margin-top: 30px;
+  }
+
+  #arrivals .products .product4 {
+    margin-left: -10px;
+    margin-top: 30px;
+  }
+
+  .first-side .first-image{
+    margin-left: 160px;
+  }
+  .first-side .first-button{
+    margin-left: 160px;
+  }
+
+  .second-side{
+    margin-top: 500px;
+  }
+
+  .second-side .second-top-image{
+    margin-left: 160px;
+  }
+
+  .second-side .second-button1{
+    margin-left: 160px;
+  }
+
+  .second-top-image2{
+    margin-left: 160px;
+  }
+
+  .second-button2{
+    margin-left: 160px;
+  }
+
+  .third-top-image1{
+    margin-left: 160px;
+
+  }
+
+  .third-button1{
+    margin-left: 160px;
+  }
+
+  .third-top-image2{
+    margin-left: 160px;
+  }
+
+  .third-button2{
+    margin-left: 160px;
+  }
+
+  .side-one-image{
+    margin-left: 230px;
+  }
+
+  .side-one-button{
+    margin-left: 230px;
+  }
+
+  .side-two{
+    margin-top: 360px;
+  }
+
+  .side-two-image{
+    margin-left: 230px;
+  }
+
+  .side-two-button{
+    margin-left: 230px;
+  }
+
+  .side-three{
+    margin-top: 360px;
+  }
+
+  .side-three-image{
+    margin-left: 50px;
+  }
+
+  .side-three-button{
+    margin-left: 70px;
+  }
+
+  .left-side-texts{
+    text-align: center;
+  }
+
+  .right-side{
+    margin-left: 50px;
+  }
+
+  .Preacutions{
+    text-align: center;
+    margin-top: 160px;
+    
+  }
+
+
+
+
+
+
+}
+
 
 
 
